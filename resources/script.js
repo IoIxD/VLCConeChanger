@@ -27,7 +27,7 @@ window.onload = function() {
 	var images = [];
 	for(var i = 0; i < 5; i++) {
 		images[i] = new Image(imagePositions[i][0], imagePositions[i][1]);
-		images[i].src = "./resources/cone"+i+".png";
+		images[i].src = "./resources/cone"+i+".webp";
 		images[i].onload = function() {
 			imagesLoaded++;
 		}
