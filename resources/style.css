@@ -1,0 +1,9 @@
+html, body {overflow: hidden;}
+
+#canvases {display: block; width: 680px; height: 770px; position: relative; margin: 15px;}
+#canvases canvas {position: absolute; pointer-events: none;}
+#inputs {margin: 10px;}
+input[type="color"] {border: 1px solid gray;}
+input[type="color"].not-recommended {border: 1px solid red!important;}
+
+#warning {position: absolute; background: #FEFFB8; border: 1px solid #B2B36B; pointer-events:none; padding-left: 1em;}
